@@ -1,44 +1,53 @@
-Bazaario 
+**Bazaario**
 
-A product listing + shopping cart demo built with plain HTML, CSS, and JavaScript — no frameworks, no build step, no dependencies. 
+A product listing + shopping cart demo built with plain HTML, CSS, and JavaScript — no frameworks, no build step, and no dependencies.
 
+**Features**
 
-Features
+- Live search across 15 products
+- Category filtering (Audio, Wearables, Computing, Smart Home, Photography)
+- Add products to the cart, update quantities, and remove items instantly
+- Slide-out cart drawer displaying subtotal, delivery fee, and total price
+- Fully responsive design for desktop, tablet, and mobile
+- Keyboard-accessible interface with support for `prefers-reduced-motion`
 
+**Tech Stack**
 
-Live search across 15 products
-Category filtering (Audio, Wearables, Computing, Smart Home, Photography)
-Add to cart, adjust quantity, remove items — all reflected instantly
-Slide-out cart drawer with subtotal, delivery fee, and total
-Fully responsive, works down to mobile
-Visible keyboard focus states, respects prefers-reduced-motion
+- HTML5
+- CSS3 (Custom Properties, No Framework)
+- Vanilla JavaScript (ES6+)
+- Google Fonts
+  - Space Grotesk
+  - Inter
+  - JetBrains Mono
 
+**Project Structure**
 
-Tech stack
-
-
-HTML5
-CSS3 (custom properties, no framework)
-Vanilla JavaScript (ES6+, no libraries)
-Fonts: Space Grotesk, Inter, JetBrains Mono (Google Fonts)
-
-
-Project structure
-
+```text
 Bazaario/
-├── index.html    # Markup
-├── style.css     # Styling
-├── script.js     # Product data, cart logic, rendering
+├── index.html      # Markup
+├── style.css       # Styling
+├── script.js       # Product data, cart logic, rendering
 └── README.md
+```
 
-Running locally
+**Running Locally**
 
-No build step needed. Either:
+Open `index.html` directly in your browser
 
+or
 
-Open index.html directly in a browser, or
-Serve it locally for a cleaner experience:
+```bash
+python3 -m http.server 8000
+```
 
+Then visit:
 
-bash   python3 -m http.server 8000
+```text
+http://localhost:8000
+```
+
+**Author**
+
+Charan Praneeth
 
